@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cor1: #053E0B;
+    --cor2: #053E0B;
+    --cor3: #613916;
+    --cor4: #DEBA98;
+    --cor5: #DC7823;
+}
+
+body {
+    background-image: url(imagens/teste2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    margin: 50px auto 0px;
+    max-width: 400px;
+    min-width: 260px;
+}
+
+#avatar img {
+    margin: auto;
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffffff60;
+}
+
+#avatar p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+#sociais ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sociais ul li {
+    background-color: #deba9821;
+    border: 1px solid #ffffff60;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+
+    transition: all .5s;
+}
+
+#sociais a {
+    color: white;
+    text-decoration: none;
+}
+
+#sociais ul li:hover {
+    /*background-color: rgba(0, 0, 0, 0.135);*/
+    background-color: #deba985e;
+    border: 2px solid var(--cor4);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+section ion-icon {
+    color: rgba(255, 255, 255, 0.566);
+    font-size: 40px;
+    padding: 10px;
+    margin: 40px 20px;
+
+    border-radius: 50%;
+
+    transition: background .5s;
+}
+
+section ion-icon:hover {
+    background-color: #deba985e;
+    color: var(--cor4);
+    border: 1.5px solid var(--cor4);
+}
+
+/*#cardapio img {
+    width: 100%;
+    width: 300px;
+    display: block;
+
+    border: 1.5px solid var(--cor4);
+    border-radius: 50%;
+}*/
+
+#cardapio img {
+    width: 350px;
+    display: block;
+    margin: 20px auto 20px;
+
+    border: 1.5px solid var(--cor4);
+    border-radius: 20px;
+}
+
+/*footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+*/
